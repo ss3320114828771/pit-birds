@@ -74,7 +74,7 @@ export default function CartPage() {
                       <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-purple-500 p-1 rounded-xl">
                         <div className="relative w-full h-full rounded-xl overflow-hidden">
                           <Image
-                            src={"/images/${item.image}`}
+                            src={item.image}  // Fixed: Removed template literal and corrected the path
                             alt={item.name}
                             fill
                             sizes="128px"
