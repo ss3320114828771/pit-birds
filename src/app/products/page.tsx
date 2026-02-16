@@ -7,14 +7,14 @@ export default function ProductsPage() {
   const [imageErrors, setImageErrors] = useState<{[key: string]: boolean}>({})
   
   const products = [
-    { id: 1, name: 'African Grey Parrot', price: 'Rs. 85,000', image: 'n1.jpeg', category: 'Birds' },
-    { id: 2, name: 'Persian Cat', price: 'Rs. 45,000', image: 'n2.jpeg', category: 'Cats' },
-    { id: 3, name: 'Love Birds Pair', price: 'Rs. 8,000', image: 'n3.jpeg', category: 'Birds' },
-    { id: 4, name: 'German Shepherd', price: 'Rs. 65,000', image: 'n4.jpeg', category: 'Dogs' },
+    { id: 1, name: 'African Grey Parrot', price: 'Rs. 85,000', image: '/n1.jpeg', category: 'Birds' },
+    { id: 2, name: 'Persian Cat', price: 'Rs. 45,000', image: '/n2.jpeg', category: 'Cats' },
+    { id: 3, name: 'Love Birds Pair', price: 'Rs. 8,000', image: '/n3.jpeg', category: 'Birds' },
+    { id: 4, name: 'German Shepherd', price: 'Rs. 65,000', image: '/n4.jpeg', category: 'Dogs' },
     { id: 5, name: 'Cockatiel', price: 'Rs. 12,000', image: 'n5.jpeg', category: 'Birds' },
-    { id: 6, name: 'Rabbit (Holland Lop)', price: 'Rs. 7,500', image: 'n6.jpeg', category: 'Small Pets' },
-    { id: 7, name: 'Macaw Parrot', price: 'Rs. 150,000', image: 'n1.jpeg', category: 'Birds' },
-    { id: 8, name: 'Golden Retriever', price: 'Rs. 55,000', image: 'n2.jpeg', category: 'Dogs' },
+    { id: 6, name: 'Rabbit (Holland Lop)', price: 'Rs. 7,500', image: '/n6.jpeg', category: 'Small Pets' },
+    { id: 7, name: 'Macaw Parrot', price: 'Rs. 150,000', image: '/n1.jpeg', category: 'Birds' },
+    { id: 8, name: 'Golden Retriever', price: 'Rs. 55,000', image: '/n2.jpeg', category: 'Dogs' },
   ]
 
   const handleImageError = (productId: number) => {

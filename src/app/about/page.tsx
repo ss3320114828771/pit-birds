@@ -27,7 +27,7 @@ export default function AboutPage() {
             <div className="absolute inset-0 bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 animate-gradient bg-[length:200%_200%] p-2 rounded-3xl">
               <div className="relative w-full h-full rounded-3xl overflow-hidden transform rotate-3d group-hover:rotate-0 transition-all duration-700">
                 <Image
-                  src="/images/n1.jpeg"
+                  src="/n1.jpeg"
                   alt="Hafiz Sajid Syed"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
