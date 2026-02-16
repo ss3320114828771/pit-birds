@@ -7,7 +7,7 @@ export default function Home() {
   const images = ['/n1.jpeg', '/n2.jpeg', 
     
     
-    "/n3.jpeg", "/n4.jpeg", '/n5.jpeg', '/n6.jpeg']
+    "/n3.jpeg", "/n4.jpeg", '/n5.jpeg', "/n6.jpeg"]
   const [imageErrors, setImageErrors] = useState<{[key: string]: boolean}>({})
   const [isClient, setIsClient] = useState(false)
 
