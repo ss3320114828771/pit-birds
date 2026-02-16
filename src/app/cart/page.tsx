@@ -14,8 +14,8 @@ interface CartItem {
 
 export default function CartPage() {
   const [cartItems, setCartItems] = useState<CartItem[]>([
-    { id: 1, name: 'African Grey Parrot', price: 85000, quantity: 1, image: 'n1.jpeg' },
-    { id: 2, name: 'Love Birds Pair', price: 8000, quantity: 2, image: 'n3.jpeg' },
+    { id: 1, name: 'African Grey Parrot', price: 85000, quantity: 1, image: '/n1.jpeg' },
+    { id: 2, name: 'Love Birds Pair', price: 8000, quantity: 2, image: '/n3.jpeg' },
   ])
 
   const updateQuantity = (id: number, newQuantity: number) => {
