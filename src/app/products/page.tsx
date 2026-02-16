@@ -65,7 +65,7 @@ export default function ProductsPage() {
                   <div className="absolute inset-1 bg-gray-900 overflow-hidden rounded-t-2xl">
                     {!imageErrors[product.id] ? (
                       <img
-                        src={`/images/${product.image}`}
+                        src={`/n2/${product.image}`}
                         alt={product.name}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                         onError={() => handleImageError(product.id)}
